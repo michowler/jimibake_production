@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>JiMi Bake</title>
+	<meta charset="UTF-8">  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Raleway:wght@100&family=Source+Serif+Pro&family=Varela+Round&display=swap" rel="stylesheet">
+
+
+  
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+
+</head>
+<body>
+	
+	<!--  -->
+	<div class="simpleslide100">
+		<div class="simpleslide100-item bg-img1" style="background-image: url(<%= image_path ("products/cake-01.JPG") %>);"></div>						
+    <div class="simpleslide100-item bg-img1" style="background-image: url(<%= image_path ("products/cake-06.JPG") %>);"></div>
+    <div class="simpleslide100-item bg-img1" style="background-image: url(<%= image_path ("products/cake-05.JPG") %>);"></div>        
+    <div class="simpleslide100-item bg-img1" style="background-image: url(<%= image_path ("products/cake-08.jpg") %>);"></div>
+    <div class="simpleslide100-item bg-img1" style="background-image: url(<%= image_path ("products/cake-03.JPG") %>);"></div>
+	</div>
+
+	<div class="flex-col-c-sb size1 overlay1 p-l-75 p-r-75 p-t-20 p-b-40 p-lr-15-sm">
+		<!--  -->
+		<div class="w-full flex-w flex-sb-m">
+			<div class="wrappic1 m-r-30 m-t-10 m-b-10">
+				<a href="/" style=""><%= image_tag ("icons/jimibake_logo.PNG") %></a>
+			</div>
+
+			<%# <div class="flex-w cd100 p-t-15 p-b-15 p-r-36">
+				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+					<span class="l1-txt1 wsize1 days">35</span>
+					<span class="m1-txt1 p-b-2">Days</span>
+				</div>
+
+				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+					<span class="l1-txt1 wsize1 hours">17</span>
+					<span class="m1-txt1 p-b-2">Hr</span>
+				</div>
+
+				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+					<span class="l1-txt1 wsize1 minutes">50</span>
+					<span class="m1-txt1 p-b-2">Min</span>
+				</div>
+
+				<div class="flex-w flex-b m-r-22 m-t-8 m-b-8">
+					<span class="l1-txt1 wsize1 seconds">39</span>
+					<span class="m1-txt1 p-b-2">Sec</span>
+				</div>
+			</div> %>
+		</div>
+		
+		<div  class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90">
+			<h3 class="l1-txt2 txt-center p-b-55 respon1" style="font-size:25px">
+				MENU<br>
+      </h3>
+      <h4 class="l1-txt1 p-b-55 respon1" style="font-size:15px;color:white;font-weight:bold">
+        [1] Double Chocolate Cheesecake 7" RM70 / RM10<br>
+        [2] Double Chocolate Cheesecake 9" RM115 / RM12<br>
+        [3] Matcha in a Jar 200ml RM21<br>
+        [4] Chocolate Cheese Tart 6" RM70<br>
+			</h4>
+		</div>
+
+    <div class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90">
+			<h3 class="l1-txt2 txt-center p-b-55 respon1" style="font-size:25px">
+				HOW TO ORDER<br>
+      </h3>
+      <h4 class="l1-txt1 p-b-55 respon1" style="font-size:15px;color:white;font-weight:bold">
+        [1] Pre-order on weekdays, deliveries on weekends
+        <br>- Weekdays: Pre-orders only
+        <br>- Weekends: Deliveries, including same day orders
+        <br>
+        [2] Place your order through WhatsApp/DM <br>
+        [3] Kindly make payment within 24 hours to confirm your order.<br>
+			</h4>
+		</div>
+
+    <div class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90">
+			<h3 class="l1-txt2 txt-center p-b-55 respon1" style="font-size:25px">
+				DELIVERY ZONE<br>
+      </h3>
+      <h4 class="l1-txt1 p-b-55 respon1" style="font-size:15px;color:white;font-weight:bold">
+        [1] Free (to your doorstep) / Self-pickup:<br>Bandar Sri Damansara / Kepong Baru<br>
+        [2] Other zone:<br>Lalamove / Mr Speedy<br>
+        [3] Free deliveries for orders above RM110 (KL/PJ)<br>
+			</h4>
+		</div>
+
+    
+
+    <div class="flex-col-c-m p-l-15 p-r-15 p-t-80 p-b-90">
+      <div class='embedsocial-stories' data-ref="fe088645b3b68639c88ca177798eaa9af989984f"></div><script>(function(d, s, id){var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/embedscript/st.js"; d.getElementsByTagName("head")[0].appendChild(js);}(document, "script", "EmbedSocialStoriesScript"));</script>
+    </div>
+		
+		<div class="flex-sb-m flex-w w-full">
+			<!--  -->
+			<div class="flex-w flex-c-m m-t-10 m-b-10">
+        <%= link_to 'https://wa.me/60129346959', class: "size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3" do %>
+          <i class="fa fa-whatsapp"></i>
+        <% end %>
+        <%= link_to 'http://www.facebook.com/TeaTimeWithJiMi', class: "size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3" do %>
+          <i class="fa fa-facebook"></i>
+        <% end %>
+
+				<%= link_to 'http://www.instagram.com/jimi.bake', class: "size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3" do %>
+          <i class="fa fa-instagram"></i>
+        <% end %>
+
+        <%= link_to 'https://formfacade.com/sm/Uh4VPX_jO', class: "size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3" do %>
+          <i class="fa fa-shopping-cart"></i>
+        <% end %>
+
+				<a href = "mailto:thejimibake@gmail.com?subject = JiMi Bake Enquiries&body = " class="size3 flex-c-m how-social trans-04 m-r-3 m-l-3 m-b-3 m-t-3">
+					<i class="fa fa-envelope"></i>
+				</a>
+
+        
+			</div>
+
+      
+
+
+		</div>
+	</div>
+
+
+	
+  
+<% content_for :javascript_includes do %>  
+  <%= javascript_include_tag "homepage.js" %>
+<% end %>
+<!--===============================================================================================-->	
+	
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 0,
+			endtimeMonth: 0,
+			endtimeDate: 35,
+			endtimeHours: 19,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
+	<script src="vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
